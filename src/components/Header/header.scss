@@ -1,0 +1,62 @@
+//Projede Header Component i için herhangi bir svg dosyası ya da background image verilmemiş oldugu için elimden geldiğince benzeterek yapmaya çalıştım.
+@import '../../theme/theme.scss';
+.headerContainer{
+    width: 100%;
+    background-color:$HeaderAndFooterBackgroundColor;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.headerLogo{
+    margin: auto;
+    cursor: pointer;
+}
+.headerTags{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 900px;
+}
+.headerTag{
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 25px;
+    cursor: pointer;
+}
+.headerImg{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headerImgText{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 160px;
+}
+.headerEndContainer{
+    width: 100%;
+    height: 100px;
+    background-color:$HeaderAndFooterBackgroundColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headerEndContainerTags{
+    display: flex;
+    flex-direction: row;
+}
+.headerEndContainerTag{
+    display: flex;
+    flex-direction: column;
+    margin:100px
+}
+.headerEndContainerTagImg{
+    height: 50px; // Düzgün gözükmediler çünkü SVG dosyası verilmemiş. SVG dosyası lazım png ya da webp ile olmuyor
+}
