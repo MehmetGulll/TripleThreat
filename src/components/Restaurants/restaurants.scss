@@ -1,0 +1,29 @@
+@import '../../theme/theme.scss';
+.restaurantTag{
+   @include tag-style;
+}
+.restaurantContainer{
+    display: grid;
+    grid-template-columns: repeat(4,260px);
+    grid-row-gap: 5px;
+    grid-column-gap:5px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+
+}
+.restaurantImg{
+    width: 250px;
+    height: 260px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.restaurants{
+    border-radius: 10px;
+}
+.button{
+    @include button-style;
+}
+.buttonContainer{
+    @include button-location;
+}
