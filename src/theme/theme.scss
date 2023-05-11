@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Raleway:wght@800&display=swap');
+@mixin tag-style{
+    font-family: 'Relaway';
+    font-weight: 800;
+    font-size: 64px;
+    padding:68px;
+}
+@mixin button-location{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+@mixin button-style{
+    background-color: #35C4BB;
+    width: 310px;
+    height: 65px;
+    border-radius: 46px;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+    cursor: pointer;
+}
