@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Raleway:wght@800&display=swap');
+$HeaderAndFooterBackgroundColor:#F4E8C9;
+@mixin tag-style{
+    font-family: 'Relaway';
+    font-weight: 800;
+    font-size: 64px;
+    padding:68px;
+}

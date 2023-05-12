@@ -1,0 +1,33 @@
+@import '../../theme/theme.scss';
+.nadosContainer{
+    height: 855px;
+    width: 100%;
+    background-color: $HeaderAndFooterBackgroundColor;
+    margin-top: 20px;
+}
+.nadosTag{
+    @include tag-style;
+}
+.topRatedContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ratedHighImg{
+    width: 527px;
+    height: 534px;
+    border-radius: 10px;
+}
+.endRatedContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 16px;
+    grid-column-gap:16px;
+    margin-left: 17px;
+
+}
+.endRatedsImg{
+    width: 257px;
+    height: 257px;
+    border-radius: 10px;
+}
