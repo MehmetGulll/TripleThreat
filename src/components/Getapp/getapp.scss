@@ -1,0 +1,20 @@
+@import '../../theme/theme.scss';
+.getappContainer{
+    display: flex;
+    flex-direction: column;
+}
+.getappTag{
+    @include tag-style;
+}
+.getappText{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 1076px;
+    height: 350px;
+    margin-left: 68px;
+    font-size: 24px;
+}
+.getappLogo{
+    margin-left: 68px;
+}
+
